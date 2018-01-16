@@ -71,4 +71,4 @@
 4. 在"Image/Label Dir"文本框中输入待标注的图片根目录(如本文档示例中的F:\data, 不能包括dog或者cat目录)，然后点击"Load"按钮载入图片
 5. 图片载入后使用鼠标在标注区域框选(可选择多个区域)，点击"next\save"按钮保存当前标注信息，同时继续标注下一张
 
-[](ImageLabelUsage.jpg)
+![](ImageLabelUsage.jpg)
