@@ -66,7 +66,7 @@
 
 ## 使用方法
 1. 如果从源码运行，则直接运行ImageLabel.py文件即可：python ImageLabel.py
-2. 如果在windows下运行exe程序，则直接下载dist/ImageLabel.exe运行即可(需要同目录下Examples)
+2. 如果在windows下运行exe程序，则直接下载dist/ImageLabel.exe运行即可(需要同时下载Examples目录，并将其放在exe一个目录下)
 3. 在"Image/Label Dir"文本框中输入标注信息的存储目录，然后点击"SaveDirConfig"按钮确认
 4. 在"Image/Label Dir"文本框中输入待标注的图片根目录(如本文档示例中的F:\data, 不能包括dog或者cat目录)，然后点击"Load"按钮载入图片
 5. 图片载入后使用鼠标在标注区域框选(可选择多个区域)，点击"next\save"按钮保存当前标注信息，同时继续标注下一张
