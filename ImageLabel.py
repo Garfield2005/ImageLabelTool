@@ -229,8 +229,10 @@ class LabelTool():
     def saveImage(self):
         with open(self.labelfilename, 'w') as f:
             f.write('%d\n' %len(self.bboxList))
+            count = 0
             for bbox in self.bboxList:
-                f.write('{0}\t{1}\t{2}\n'.format(self.category, self.imagenamewithsuffix, ' '.join(map(str, bbox))))
+                f.write('{0}\t{1}\t{2}\t{3}\n'.format(count, self.category, self.imagenamewithsuffix, ' '.join(map(str, bbox))))
+                count += 1
         print('Image No. %d saved: %s' %(self.cur, self.labelfilename))
 
 
