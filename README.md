@@ -11,7 +11,9 @@
 3. 提供python源码，同时提供了一个生成的exe文件可以在windows上使用(不依赖python环境)
 
 ## 格式要求
-1. 待标注的图片目录结构: 
+1. 待标注的图片目录结构:
+ 
+    ```
     F:\data
     ├─dog
     │   dog-1.jpg
@@ -24,12 +26,15 @@
         cat-3.jpg
         cat-4.jpg
         cat-5.jpg
+    ```
 
     - F:\data: 为数据集根目录
     - dog和cat: 为数据集名称名录
     - *.jpg: 为待标注图片
 
 2. 输出格式
+
+    ```
     F:\labelinfo
     ├─dog
     │   dog-1.txt
@@ -42,6 +47,7 @@
         cat-3.txt
         cat-4.txt
         cat-5.txt
+    ```
 
     - F:\labelinfo: 为标注结果存储根目录
     - dog和cat： 标注结果存储子目录，和数据集目录相对应
