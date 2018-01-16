@@ -9,6 +9,7 @@
 1. 用来对制定的图像集合进行标注
 2. 目前只支持jpg格式图片
 3. 提供python源码，同时提供了一个生成的exe文件可以在windows上使用(不依赖python环境)
+4. 另外一款工具：https://github.com/tzutalin/labelImg
 
 ## 格式要求
 1. 待标注的图片目录结构:
