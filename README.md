@@ -1,9 +1,9 @@
 ## 图片标注工具
 
-> version: 1.0.0
-> author: zhangmm
-> create date: 01/16 2018
-> email: jolly.ming2005@gmail.com
+> version: 1.0.0  
+> author: zhangmm  
+> create date: 01/16 2018  
+> email: jolly.ming2005@gmail.com  
 
 ## Description
 1. 用来对制定的图像集合进行标注
